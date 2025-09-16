@@ -1,6 +1,31 @@
-# Welcome to your Expo app 👋
+# Welcome to VUNA Pay :airplane:
+VUNA Pay is a mobile-first payment application designed for Veritas University students to seamlessly manage and pay their academic dues without stress. The app provides a centralized platform for handling various university payments including faculty dues, departmental dues, SRA dues, and NACOS dues.
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Key Features
+
+- `Student Wallet` Secure digital wallet for managing funds and viewing balance
+- `Multiple Payment Methods` Support for bank transfers, credit/debit cards, and USSD funding options
+- `Due Management` View and track all academic dues with session-wise organization
+- `Secure Transactions` PIN-protected payments with OTP verification
+- `Mobile-Optimized` Responsive design optimized for mobile devices with QR code access for desktop users
+
+## User Flow
+
+- `Registration/Login` Students sign up with academic credentials (matric number, department, faculty, level)
+- `Wallet Funding` Multiple options to fund student wallet (bank transfer, card, USSD)
+- `Payment Processing` Select dues, choose payment method, and complete secure transactions
+- `Confirmation` Receive payment confirmation with receipt generation
+
+## Technology Stack
+
+- `Frontend` React Native with Expo
+- `Navigation` Expo Router with stack navigation
+- `UI Components` Custom components with responsive design
+- `Deployment` Vercel (web) with mobile app support
+
+`This is a simple frontend demo and not a fully functional application`
+
+Click to view the [Live demo](https://vuna-pay.vercel.app/)
 
 ## Get started
 
