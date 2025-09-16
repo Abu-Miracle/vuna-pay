@@ -7,7 +7,7 @@ interface QRCodeScreenProps {
 
 const QRCodeScreen: React.FC<QRCodeScreenProps> = ({ colorScheme }) => {
   // Get the current URL for the QR code
-  const currentUrl = Platform.OS === 'web' ? (window as any).location.href : '';
+  const currentUrl = Platform.OS === 'web' ? 'https://vuna-pay.vercel.app/' : '';
   
   // Generate QR code URL using a free service
   const qrCodeUrl = `https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=${encodeURIComponent(currentUrl)}`;
